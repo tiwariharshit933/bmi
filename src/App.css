@@ -112,6 +112,7 @@ input:focus {
   border: none;
   border-radius: 12px;
   margin: 10px 8px;
+  cursor: pointer;
 }
 h3#bmi {
   text-align: center;
