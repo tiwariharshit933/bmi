@@ -92,7 +92,8 @@ form input {
   margin: 10px 0;
   width: 180px;
 }
-.buttonbox{
+
+.buttonbox {
   display: flex;
 }
 
@@ -106,7 +107,8 @@ input:focus {
   background: linear-gradient(90deg, #003A74, #006AD5);
   color: white;
 }
-.btn{
+
+.btn {
   padding: 10px 15px;
   width: 120px;
   border: none;
@@ -114,15 +116,24 @@ input:focus {
   margin: 10px 8px;
   cursor: pointer;
 }
+
 h3#bmi {
   text-align: center;
   font-size: 20px;
   margin: 20px 0 5px;
 }
+
 p#message {
   margin: 0;
   text-align: center;
 }
-.BMIValue{
+
+.BMIValue {
   color: #d00;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100% !important;
+  }
 }
