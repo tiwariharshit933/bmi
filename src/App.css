@@ -135,5 +135,12 @@ p#message {
 @media screen and (max-width: 767px) {
   .container {
     width: 100% !important;
+    padding: 0 !important;
+  }
+  label{
+    width: 100px !important;
+  }
+  input{
+    width: 150px !important;
   }
 }
